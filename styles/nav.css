@@ -1,0 +1,155 @@
+.header_logo {
+    color: #ffffff;
+    margin-top: 41px;
+    margin-left: 5%;
+
+}
+
+.logo_name_1 {
+    font-size: 22px;
+    margin-top: -45px;
+    margin-left: 51px;
+}
+
+.logo_name_2 {
+    font-size: 12px;
+    margin-left: 51px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu_icon_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: -15px;
+}
+
+.menu_icon {
+    width: 30px;
+    height: 2px;
+    background-color: #e3a062;
+}
+
+.name_menu {
+    margin-left: 15px;
+    margin-top: -8px;
+}
+
+.menu_icon::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #e3a062;
+    transition: transform 0.2s ease-in,
+        top 0.2s linear 0.2s;
+}
+
+.menu_icon::after {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #e3a062;
+    transition: transform 0.2s ease-in,
+        top 0.2s linear 0.2s;
+}
+
+.menu_icon.menu_icon_active {
+    background-color: transparent;
+}
+
+.menu_icon.menu_icon_active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.2s linear,
+        transform 0.2s ease-in 0.2s;
+}
+
+.menu_icon.menu_icon_active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.2s linear,
+        transform 0.2s ease-in 0.2s;
+}
+
+nav {
+    margin-top: 37px;
+    margin-left: 24%;
+}
+
+.topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #e3a062;
+}
+
+.topnav a .icon:hover {
+    border-bottom: none;
+}
+
+.topnav .icon {
+    display: none;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1010px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+
+    header .topnav.responsive {
+        height: 200px;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .menu_icon {
+        margin-left: -30px;
+    }
+}
