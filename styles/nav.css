@@ -153,3 +153,9 @@ nav {
         margin-left: -30px;
     }
 }
+
+@media screen and (max-width: 1010px) {
+    .topnav.responsive {
+        left: -250px;
+    }
+}

@@ -29,7 +29,9 @@ header {
 
 .carousel {
     margin-top: -400px;
+    height: 100vh;
     color: #fff;
+    margin-bottom: -200px;
 }
 
 .carousel-item .about {
@@ -63,6 +65,36 @@ header {
 
 .more-info:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .carousel {
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel {
+        margin-bottom: -150px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .carousel {
+        margin-bottom: -200px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .carousel {
+        margin-bottom: -250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carousel {
+        margin-bottom: -150px;
+    }
 }
 
 @media screen and (max-width: 705px) {

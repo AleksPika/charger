@@ -1,0 +1,40 @@
+.main-about-us {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-about-us {
+    padding-top: 140px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn-more {
+    color: #000000;
+    border-color: #e3a062;
+    min-width: 130px;
+    border-width: 2px;
+}
+
+.strip-about {
+    width: 50px;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #e3a062;
+}
+
+@media screen and (max-width: 1210px) {
+    .title-about-us {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-about-us {
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+}

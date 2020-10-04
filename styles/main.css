@@ -1,5 +1,6 @@
 @import url('nav.css');
 @import url('header.css');
+@import url('about-us.css');
 
 @font-face {
   font-family: "Roboto";
@@ -9,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 a {
@@ -25,5 +27,6 @@ li {
 
 body {
   font-family: Roboto;
+  overflow-x: hidden;
   height: 100vh;
 }
