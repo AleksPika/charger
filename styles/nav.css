@@ -2,7 +2,6 @@
     color: #ffffff;
     margin-top: 41px;
     margin-left: 5%;
-
 }
 
 .logo_name_1 {
@@ -148,7 +147,7 @@ nav {
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 448px) {
     .menu_icon {
         margin-left: -30px;
     }
