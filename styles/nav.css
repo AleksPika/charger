@@ -17,15 +17,13 @@
 
 .icon {
     display: inline-block;
-    margin-right: 10px;
 }
 
 .menu_icon_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    margin-top: -15px;
+    height: 20px;
 }
 
 .menu_icon {
@@ -84,8 +82,8 @@
 }
 
 nav {
-    margin-top: 37px;
-    margin-left: 24%;
+    margin-top: 25px;
+    margin-left: 20%;
 }
 
 .topnav a {
@@ -95,6 +93,7 @@ nav {
     font-size: 14px;
     font-weight: 400;
 }
+
 
 .topnav a:hover {
     border-bottom: 3px solid #e3a062;
@@ -136,7 +135,7 @@ nav {
     .topnav.responsive a.icon {
         position: absolute;
         top: -50px;
-        right: -200px;
+        right: -235px;
     }
 
     .topnav.responsive a {
@@ -155,6 +154,6 @@ nav {
 
 @media screen and (max-width: 1010px) {
     .topnav.responsive {
-        left: -250px;
+        left: -235px;
     }
 }
