@@ -31,9 +31,9 @@
         </div>
         <nav>
             <div class="topnav" id="myTopnav">
-                <a href="#">ABOUT US</a>
-                <a href="#">SERVICES</a>
-                <a href="#">PROJECTS</a>
+                <a href="#about-us">ABOUT US</a>
+                <a href="#services">SERVICES</a>
+                <a href="#projects">PROJECTS</a>
                 <a href="#" id="menu" class="icon">
                     <div class="container">
                         <div class="row menu_icon_wrapper">
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <div class="container main-about-us">
+    <div class="container main-about-us" id="about-us">
         <div class="row d-flex justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-6 photo-us">
                 <img src="./img/img-2.jpg" alt="we're" title="Charger castoms" class="img-fluid">
@@ -118,7 +118,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluide services">
+    <div class="container-fluide services" id="services">
         <div class="row">
             <div class="col block-serv">
                 <h2 class="title-services">Services</h2>
@@ -131,15 +131,16 @@
             </div>
         </div>
         <div class="container service-images">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card card-service text-white mb-3 dws">
                         <div class="blocImg">
                             <img src="./img/service-img-1.jpg" class="card-img" alt="Tuning" title="Tuning">
                             <div class="card-img-overlay blocText">
                                 <div class="text">
                                     <h5 class="card-title name-service d-flex justify-content-center">Tuning</h5>
-                                    <p>Modification of the performance or appearance of a vehicle.</p>
+                                    <p>Modification of the performance or
+                                        appearance of a vehicle.</p>
                                     <div class="d-flex justify-content-center">
                                         <a href="#" class="more-info">READ MORE</a>
                                     </div>
@@ -148,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card card-service text-white mb-3 dws">
                         <div class="blocImg">
                             <img src="./img/service-img-2.jpg" class="card-img" alt="Restoration" title="Restoration">
@@ -164,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card card-service text-white mb-3 dws">
                         <div class="blocImg">
                             <img src="./img/service-img-3.jpg" class="card-img" alt="Repairs" title="Repairs">
@@ -183,6 +184,33 @@
             </div>
         </div>
     </div>
+    <div class="container-fluide projects" id="projects">
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row footer-logo">
+                        <img src="img/logo.png" alt="CHARGER" title="CHARGER">
+                        <div class="logo_name_3">CHARGER</div>
+                        <div class="logo_name_4">customs</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row d-flex justify-content-end footer-menu">
+                        <a href="#about-us">ABOUT US</a>
+                        <a href="#services">SERVICES</a>
+                        <a href="#projects">PROJECTS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright d-flex justify-content-center">
+                &copy; Copyright 2020. All Rights Reserved
+            </div>
+        </div>
+    </footer>
     <script src="./app/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
