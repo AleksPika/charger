@@ -14,7 +14,7 @@ footer {
 
 .copyright {
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer-menu {
@@ -45,5 +45,11 @@ footer {
 @media screen and (max-width: 1010px) {
     footer {
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo_name_3 {
+        margin-left: 0;
     }
 }
