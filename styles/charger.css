@@ -1,0 +1,66 @@
+.charger {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-charger {
+    font-family: Merriweather;
+    font-size: 50px;
+}
+
+.vert {
+    font-family: Merriweather;
+    transform: rotate(-90deg);
+    padding-top: 200px;
+    font-size: 10px;
+    color: #e3a062;
+    border-bottom: 1px solid #e3a062;
+}
+
+.vert span {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1122px) {
+    .vert {
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    .vert {
+        padding-top: 140px;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .vert {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .vert {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .vert {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .vert {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vert {
+        display: none;
+    }
+}

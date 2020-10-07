@@ -44,7 +44,17 @@ footer {
 
 @media screen and (max-width: 1010px) {
     footer {
-        height: 200px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    footer {
+        height: 190px;
+    }
+
+    .footer-menu {
+        font-size: 14px;
     }
 }
 

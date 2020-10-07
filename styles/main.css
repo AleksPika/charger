@@ -14,6 +14,16 @@
   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather-italic";
+  src: url("../fonts/Merriweather-Italic.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;

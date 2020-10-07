@@ -6,3 +6,42 @@
     background-blend-mode: darken;
     background-position: center;
 }
+
+.carousel-carousel-testimonials {
+    min-height: 650px;
+    color: #fff;
+}
+
+.carousel-caption-testimonials {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 250px;
+    right: 0;
+    left: 0;
+}
+
+.carousel-indicators {
+    margin-bottom: 100px;
+}
+
+.title-testimonials {
+    font-family: Merriweather-italic;
+}
+
+.strip-testimonials {
+    width: 200px;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #e3a062;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.name-car {
+    font-size: 14px;
+}

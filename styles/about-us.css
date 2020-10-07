@@ -1,5 +1,5 @@
 .main-about-us {
-    height: 100vh;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
 .title-about-us {
     padding-top: 140px;
     font-size: 50px;
-    font-weight: bold;
+    font-family: Merriweather;
 }
 
 .btn-more {

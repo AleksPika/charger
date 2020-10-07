@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css">
+
 </head>
 
 <body>
@@ -47,9 +48,9 @@
     </header>
 
     <div class="container-fluid">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselExampleFade" class="carousel carousel-header slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="5000">
+                <div class="carousel-item carousel-item-header active" data-interval="5000">
                     <div class="row d-flex justify-content-center">
                         <div class="col-sm-6 col-lg-6">
                             <div class="slogan">
@@ -64,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item carousel-item-header" data-interval="5000">
                     <div class="row d-flex justify-content-center">
                         <div class="col-sm-6 col-lg-6">
                             <div class="slogan">
@@ -79,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item carousel-item-header" data-interval="5000">
                     <div class="row d-flex justify-content-center">
                         <div class="col-sm-6 col-lg-6">
                             <div class="slogan">
@@ -95,10 +96,10 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <a class="carousel-control-prev prev-header" href="#carouselExampleFade" role="button" data-slide="prev">
                 <span class="jump">PREV</span><span class="strip"></span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <a class="carousel-control-next next-header" href="#carouselExampleFade" role="button" data-slide="next">
                 <span class="strip"></span><span class="jump">NEXT</span>
             </a>
         </div>
@@ -189,11 +190,11 @@
     </div>
     <div class="container-fluide projects" id="projects">
         <div class="row d-flex justify-content-center">
-            <div class="title-projects ">Projects</div>
+            <div class="title-projects mb-3">Projects</div>
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
-                <img src="./img/car-1.jpg" class="img-fluid" alt="car-1">
+                <img src="./img/car-4.jpg" class="img-fluid" alt="car-1">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
                 <img src="./img/car-2.jpg" class="img-fluid" alt="car-2">
@@ -202,15 +203,15 @@
                 <img src="./img/car-9.jpg" class="img-fluid" alt="car-3">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
-                <img src="./img/car-4.jpg" class="img-fluid" alt="car-4">
+                <img src="./img/car-1.jpg" class="img-fluid" alt="car-4">
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
-                <img src="./img/car-5.jpg" class="img-fluid" alt="car-5">
+                <img src="./img/car-6.jpg" class="img-fluid" alt="car-5">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
-                <img src="./img/car-6.jpg" class="img-fluid" alt="car-6">
+                <img src="./img/car-5.jpg" class="img-fluid" alt="car-6">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 pt-3 pb-3">
                 <img src="./img/car-7.jpg" class="img-fluid" alt="car-7">
@@ -223,13 +224,73 @@
             <button type="button" class="btn btn-outline-warning btn-more">MORE</button>
         </div>
     </div>
-    <!--
+
     <div class="container-fluide testimonials">
 
+        <div id="carouselTestimonialsCaptions" class="carousel carousel-carousel-testimonials slide"
+            data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselTestimonialsCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselTestimonialsCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselTestimonialsCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption carousel-caption-testimonials  d-md-block">
+                        <h2 class="title-testimonials">These guys do amazing work here. They made my
+                            car awesome.</h2>
+                        <div class="row d-flex justify-content-center">
+                            <div class="strip-testimonials"></div>
+                        </div>
+                        <p class="name">John Brown</p>
+                        <p class="name-car">Chevrolet camaro</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption carousel-caption-testimonials d-md-block">
+                        <h2 class="title-testimonials">Guys have arms growing out of the right place</h2>
+                        <div class="row d-flex justify-content-center">
+                            <div class="strip-testimonials"></div>
+                        </div>
+                        <p class="name">Joe Black</p>
+                        <p class="name-car">Cadillac</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption carousel-caption-testimonials d-md-block">
+                        <h2 class="title-testimonials">Best Service in the State</h2>
+                        <div class="row d-flex justify-content-center">
+                            <div class="strip-testimonials"></div>
+                        </div>
+                        <p class="name">Henry White</p>
+                        <p class="name-car">Dodge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
--->
-    <div class="container-fluide charger">
 
+    <div class="container charger">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 photo-us">
+                <img src="./img/last.jpg" alt="we're" title="Charger" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 text-charger">
+                <h2 class="title-charger">Charger</h2>
+                <div class="strip-about"></div>
+                <p>The Charger Customs® has grown into one of the most powerful and brand names in the custom
+                    automotive industry. We now
+                    have franchises stretching across the world. We have worked with some of the largest brands in the
+                    world, including
+                    Fortune 500 companies. We are now a household name in multiple countries and plan to continue
+                    dominating the custom car
+                    world and expand our global reach with amazing rides and concepts.</p>
+                <button type="button" class="btn btn-outline-warning btn-more">MORE</button>
+            </div>
+        </div>
+        <div class="vert">
+            <span>Charger</span><span>Customs</span>
+        </div>
     </div>
 
     <footer>
