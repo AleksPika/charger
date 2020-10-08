@@ -1,0 +1,52 @@
+.contacts {
+    width: 100%;
+    max-height: 1200px;
+    background-image: url(../img/header_img.jpg);
+    background-color: rgba(0, 0, 0, .8);
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.question-2 {
+    color: #fff;
+    font-size: 24px;
+    font-family: Merriweather;
+    text-align: center;
+}
+
+.form-row {
+    text-align: center;
+}
+
+.contacts-info {
+    color: #fff;
+}
+
+.info-about-1 {
+    font-family: Merriweather;
+    color: #e3a062;
+}
+
+.info-about-2 {
+    font-family: Merriweather;
+    color: #e3a062;
+}
+
+@media screen and (max-width: 500px) {
+
+    .f-1,
+    .f-2,
+    .f-3 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    div.form-row {
+        margin: 0;
+    }
+}
+
+.inf-1,
+.inf-2 {
+    color: #e3a062;
+}

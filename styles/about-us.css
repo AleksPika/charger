@@ -1,10 +1,8 @@
 .main-about-us {
     min-height: 500px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .title-about-us {
     padding-top: 140px;
@@ -26,6 +24,12 @@
     background-color: #e3a062;
 }
 
+.question {
+    font-size: 24px;
+    font-family: Merriweather;
+    text-align: center;
+}
+
 @media screen and (max-width: 1210px) {
     .title-about-us {
         padding-top: 80px;
@@ -41,5 +45,12 @@
 
     .main-about-us {
         padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .main-about-us {
+        padding-top: 100px;
     }
 }

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -100px;
 }
 
 .title-charger {
@@ -45,6 +46,10 @@
     .vert {
         padding-top: 300px;
     }
+
+    .charger {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -62,5 +67,11 @@
 @media screen and (max-width: 767px) {
     .vert {
         display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .charger {
+        margin-top: 0px;
     }
 }
