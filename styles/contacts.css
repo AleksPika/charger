@@ -32,6 +32,11 @@
     color: #e3a062;
 }
 
+.map {
+    min-width: 400px;
+    height: 300px;
+}
+
 @media screen and (max-width: 500px) {
 
     .f-1,
