@@ -2,7 +2,8 @@ header {
     width: 100%;
     min-height: 700px;
     display: flex;
-    background-image: url(../img/header_img.jpg);
+    background: url(../img/header_img.jpg) no-repeat center;
+    background-size: cover;
     background-color: rgba(0, 0, 0, .8);
     background-blend-mode: darken;
     background-position: center;
